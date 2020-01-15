@@ -64,3 +64,81 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+*{
+	margin: 0;
+	padding: 0;
+}
+/* Added margin and padding to everything, saw Brit do it on lecture */
+
+/* I want to get the nav and the great idea logo to sort right and turn it grey, possibly add some padding too. */
+body{
+	padding-top: 2%;
+}
+body nav{
+	margin-top: 23%;
+	margin: 0 auto;
+	display: inline-block;
+
+}
+
+body nav a{		
+	width: 12%;
+	border: 1px solid black;
+	color: gray;
+	margin: 0 auto;
+
+}
+
+/* I want to make the h1 bigger, looks like I will need to get a section for h1 and the circle photo.*/
+/* a button will need to be added too for get started and place it below h1 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
