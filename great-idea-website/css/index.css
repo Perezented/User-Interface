@@ -76,18 +76,23 @@ body{
 	padding-top: 2%;
 }
 body nav{
-	margin-top: 1%;
-	display: inline-block;
+	margin: 1% 0;
+	border: 1px red solid;
+	width: 100%;
 
 }
 .logo{
-	width: 25%;
+	width: 15%;
+	display: inline-block;
+	border: 1px solid blue;
 }
-nav a{		
-	width: 12%;
-	border: 1px solid black;
+nav a{	
+	display: inline-block;
+	width:13%;	
+	border: 1px solid green;
 	color: gray;
-	margin: 0 auto;
+	margin: 0 auto 2%;
+	text-align: center;
 
 }
 
@@ -115,19 +120,25 @@ body div img{
 
 }
 
+
 /* Going to add all divs to inline block */
 .feats{
 	display: inline-block;
 	width: 49%;
+	border: 1px solid seagreen;
 }
 
 .vices{	
 	width: 31%;
 	display: inline-block;
 }
+
+/* make sure that lower image fits the whole section of the screen */
 figure img{
 	display: block;
+	position: relative;
 	width: 100%;
+	
 }
 
 
