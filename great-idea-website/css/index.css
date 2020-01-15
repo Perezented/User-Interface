@@ -96,9 +96,9 @@ nav a{
 
 .headin{
 	display: inline-block;
-	width: 55%;
+	width: 50%;
 	text-align: center;
-	margin: 1% 1% 7%;
+	margin: 2% 1% 7%;
 }
 h1{
 	padding: 15%;
@@ -115,40 +115,20 @@ body div img{
 
 }
 
+/* Going to add all divs to inline block */
+.feats{
+	display: inline-block;
+	width: 49%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.vices{	
+	width: 31%;
+	display: inline-block;
+}
+figure img{
+	display: block;
+	width: 100%;
+}
 
 
 
