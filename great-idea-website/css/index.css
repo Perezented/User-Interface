@@ -82,8 +82,8 @@ body nav{
 
 }
 .logo{
-	margin-left: 2%;
-	width: 14%;
+	margin: 1% 0 
+	width: 16%;
 	display: inline-block;
 	border: 1px solid blue;
 }
@@ -127,37 +127,55 @@ body div img{
 h2{
 	font-size: 125%;
 }
+h5{
+	padding: 3% 0 1%;
+	font-size: 125%;
+}
 
-/* Going to add all divs to inline block */
+/* Going to add inline block to all divs */
 .feats{
 	display: inline-block;
-	width: 49%;
+	width: 51%;
 	padding: 0 5% 3%;
+	margin-right: -2%;
 }
 
 .vices{	
 	width: 31%;
 	display: inline-block;
-	margin-left: 2%;
 	padding: 3% 5% 3%;
 }
 
-/* make sure that lower image fits the whole section of the screen */
+/* make sure that lower image fits the whole section of the screen and make it centered */
 figure img{
 	display: block;
 	position: relative;
-	width: 100%;
+	width: 90%;
+	margin: 0 auto;
 	
 }
 
-/* add the line to the bottom of contact and above the paragraphs */
+/* add the lines to the begining of the paragraphs and before the footer */
+
+.underline{
+	border-bottom: 1px solid black;
+	margin: 0 5%;
+}
+
+.overline{
+	border-top: 1px solid black;
+	margin: 0 5%
+}
+
+/* fix the footer so it is spaced correctly and copyright is centered and has padding/ margins */
 
 
-
-
-
-
-
+h6{
+	
+	font-weight: bold;
+	text-align: center;
+	padding: 5% 0 8%
+}
 
 
 
