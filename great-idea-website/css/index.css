@@ -82,14 +82,15 @@ body nav{
 
 }
 .logo{
-	margin: 1% 0 
-	width: 16%;
+
 	display: inline-block;
 	border: 1px solid blue;
+	width: 15%;
+	margin-left: 8%;
 }
 nav a{	
 	display: inline-block;
-	width:13%;	
+	width:12%;	
 	border: 1px solid green;
 	color: gray;
 	margin: 0 auto 2%;
@@ -102,23 +103,27 @@ nav a{
 
 .headin{
 	display: inline-block;
-	width: 50%;
 	text-align: center;
-	margin: 2% 1% 7%;
+	margin: 0 auto;
+}
+section.headin{
+	width: 49%;
+	
 }
 h1{
-	padding: 15%;
+	font-size: 350%;
 	border: 1px solid black;
 }
 .headin button{
 	padding: 1% 5%;
-	background-color: white;
 	border: 1px solid black;
 }
-body div img{	
-	display: inline-block;
-	width: 25%
-
+body div img{
+	display: inline-block;	
+	border: 2px solid blue;
+	width: 48%;
+	padding: 5%;
+	margin: 0 auto;
 }
 
 
@@ -177,8 +182,13 @@ h6{
 	padding: 5% 0 8%
 }
 
+/* going to add a hover feature to the button. Its not lively when i hover over it. my brain thought something was wrong with the button. its there, just not alive yet. */
 
-
+button:hover{
+	background-color: black;
+	color:white;
+	
+}
 
 
 
