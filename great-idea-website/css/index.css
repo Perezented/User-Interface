@@ -76,13 +76,14 @@ body{
 	padding-top: 2%;
 }
 body nav{
-	margin: 1% 0;
+	margin-bottom: 2%;
 	border: 1px red solid;
 	width: 100%;
 
 }
 .logo{
-	width: 15%;
+	margin-left: 2%;
+	width: 14%;
 	display: inline-block;
 	border: 1px solid blue;
 }
@@ -121,16 +122,24 @@ body div img{
 }
 
 
+/* Make the headings bigger*/
+
+h2{
+	font-size: 125%;
+}
+
 /* Going to add all divs to inline block */
 .feats{
 	display: inline-block;
 	width: 49%;
-	border: 1px solid seagreen;
+	padding: 0 5% 3%;
 }
 
 .vices{	
 	width: 31%;
 	display: inline-block;
+	margin-left: 2%;
+	padding: 3% 5% 3%;
 }
 
 /* make sure that lower image fits the whole section of the screen */
@@ -141,6 +150,7 @@ figure img{
 	
 }
 
+/* add the line to the bottom of contact and above the paragraphs */
 
 
 
