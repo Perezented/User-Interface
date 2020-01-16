@@ -77,25 +77,22 @@ body{
 }
 body nav{
 	margin-bottom: 2%;
-	border: 1px red solid;
 	width: 100%;
 
 }
 .logo{
 
 	display: inline-block;
-	border: 1px solid blue;
 	width: 15%;
 	margin-left: 8%;
 }
 nav a{	
 	display: inline-block;
 	width:12%;	
-	border: 1px solid green;
 	color: gray;
 	margin: 0 auto 2%;
 	text-align: center;
-
+	text-decoration: none;
 }
 
 /* I want to make the h1 bigger, looks like I will need to get a section for h1 and the circle photo.*/
@@ -105,25 +102,28 @@ nav a{
 	display: inline-block;
 	text-align: center;
 	margin: 0 auto;
+	padding: 0 0;
 }
 section.headin{
 	width: 49%;
 	
 }
 h1{
-	font-size: 350%;
-	border: 1px solid black;
+	font-size: 400%;
+	padding: 25% 0 5%;
 }
 .headin button{
+	background-color: white;
 	padding: 1% 5%;
 	border: 1px solid black;
-}
+	margin: -10% 0 15%;
+	}
 body div img{
 	display: inline-block;	
-	border: 2px solid blue;
-	width: 48%;
-	padding: 5%;
-	margin: 0 auto;
+	padding: 2%;
+	margin: 0 0 0 10%;
+	max-width: 39%;
+	position: relative;
 }
 
 
