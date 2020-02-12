@@ -1,17 +1,33 @@
 nav {
-    border: 1px solid green;
-    width: 93%;
-    padding: 3%;
-
+    width: 93.5%;
+    padding: 3% 3% 1%;
+    z-index: 99;
+    position: fixed;
+    background: white;
+    opacity: 0.9;
+    .navSeparation {
+        .blocky();
+        width: 84%;
+    }
+    .navOtherPart {
+        .blocky();
+        width: 15%;
+    }
     a {
         color: grey;
-        border: purple 1px solid;
         margin: 4%;
+        font-size: 1.2rem;
+        text-decoration: none;
+        &:hover {
+            color: black;
+            text-shadow: 0 0 7px black;
+        }
     }
     .logo {
-        padding: 2.5% 1% 0%;
+        padding: 10% 0% 0%;
     }
 }
+
 .blocky() {
     display: inline-block;
 }
@@ -23,11 +39,30 @@ nav {
     width: 90%;
     margin: 0 5% 0 5%;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+    font-family: @heading;
+    letter-spacing: 0.15rem;
+}
+h1 {
+    letter-spacing: 0.25rem;
+}
+p,
+address,
+a {
+    font-family: @font;
+    line-height: 1.5rem;
+}
 .heading {
     .container();
+    margin-top: 8%;
     display: inline-block;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 
     .heading1 {
         margin-left: 2%;
@@ -47,11 +82,15 @@ nav {
             border-radius: 4px;
             background: white;
             font-size: 1.2rem;
+            &:hover {
+                color: white;
+                background: black;
+                cursor: pointer;
+            }
         }
     }
     .circle {
         .blocky();
-        .borderCheck();
         width: 48%;
         text-align: center;
         height: width;
@@ -72,7 +111,7 @@ nav {
             padding: 5% 0 0;
         }
         p {
-            padding: 0 0 3%;
+            padding: 0 0 3% 1%;
         }
     }
 }

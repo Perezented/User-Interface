@@ -304,23 +304,59 @@ template {
   display: none;
 }
 nav {
-  border: 1px solid green;
-  width: 93%;
-  padding: 3%;
+  width: 93.5%;
+  padding: 3% 3% 1%;
+  z-index: 99;
+  position: fixed;
+  background: white;
+  opacity: 0.9;
+}
+nav .navSeparation {
+  display: inline-block;
+  width: 84%;
+}
+nav .navOtherPart {
+  display: inline-block;
+  width: 15%;
 }
 nav a {
   color: grey;
-  border: purple 1px solid;
   margin: 4%;
+  font-size: 1.2rem;
+  text-decoration: none;
+}
+nav a:hover {
+  color: black;
+  text-shadow: 0 0 7px black;
 }
 nav .logo {
-  padding: 2.5% 1% 0%;
+  padding: 10% 0% 0%;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: "Bangers", cursive;
+  letter-spacing: 0.15rem;
+}
+h1 {
+  letter-spacing: 0.25rem;
+}
+p,
+address,
+a {
+  font-family: "Prompt", sans-serif;
+  line-height: 1.5rem;
 }
 .heading {
   width: 90%;
   margin: 0 5% 0 5%;
+  margin-top: 8%;
   display: inline-block;
-  padding-bottom: 10%;
+  padding-bottom: 5%;
 }
 .heading .heading1 {
   margin-left: 2%;
@@ -341,9 +377,13 @@ nav .logo {
   background: white;
   font-size: 1.2rem;
 }
+.heading .heading1 button:hover {
+  color: white;
+  background: black;
+  cursor: pointer;
+}
 .heading .circle {
   display: inline-block;
-  border: 2px dotted magenta;
   width: 48%;
   text-align: center;
   height: width;
@@ -368,7 +408,7 @@ nav .logo {
 }
 .top-section .feats p,
 .top-section .about p {
-  padding: 0 0 3%;
+  padding: 0 0 3% 1%;
 }
 .banner {
   width: 90%;
@@ -411,4 +451,18 @@ footer {
 }
 footer h6 {
   font-size: 1rem;
+}
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Bangers Regular'), local('Bangers-Regular'), url(https://fonts.gstatic.com/s/bangers/v12/FeVQS0BTqb0h60ACH55Q3Q.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Prompt'), local('Prompt-Regular'), url(https://fonts.gstatic.com/s/prompt/v4/-W__XJnvUD7dzB2KYNoY.ttf) format('truetype');
 }
