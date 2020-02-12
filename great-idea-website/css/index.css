@@ -305,7 +305,7 @@ template {
 }
 nav {
   border: 1px solid green;
-  width: 100%;
+  width: 93%;
   padding: 3%;
 }
 nav a {
@@ -320,36 +320,42 @@ nav .logo {
   width: 90%;
   margin: 0 5% 0 5%;
   display: inline-block;
-  border: 2px dotted magenta;
-  padding-bottom: 3%;
+  padding-bottom: 10%;
 }
 .heading .heading1 {
   margin-left: 2%;
   display: inline-block;
-  border: 1px solid goldenrod;
-  width: 45%;
+  text-align: center;
+  width: 48%;
 }
 .heading .heading1 h1 {
   padding: 10% 15% 0;
-  border: 2px dotted magenta;
   font-size: 500%;
+  text-align: center;
 }
 .heading .heading1 button {
-  border: 2px dotted magenta;
-  padding: 2% 3%;
-  margin: 0 40%;
-  text-align: center;
+  width: 40%;
+  padding: 1.5% 3%;
+  border: 1px solid black;
+  border-radius: 4px;
+  background: white;
+  font-size: 1.2rem;
 }
 .heading .circle {
   display: inline-block;
-  border: 1px solid blue;
-  width: 45%;
+  border: 2px dotted magenta;
+  width: 48%;
   text-align: center;
+  height: width;
+}
+.heading .circle img {
+  margin-top: 3%;
+  padding: 5%;
 }
 .top-section {
   width: 90%;
   margin: 0 5% 0 5%;
-  border: 2px dotted magenta;
+  border-top: 2px solid black;
 }
 .top-section .feats,
 .top-section .about {
@@ -375,7 +381,7 @@ nav .logo {
 .triSection {
   width: 90%;
   margin: 0 5% 0 5%;
-  border: 2px dotted magenta;
+  border-bottom: 2px solid black;
   padding-bottom: 2%;
 }
 .triSection .services,
@@ -394,13 +400,11 @@ nav .logo {
 }
 .triSection .vision {
   padding-left: 1%;
-  border: 2px dotted magenta;
 }
 .contact {
   padding: 1.5% 0%;
   width: 90%;
   margin: 0 5% 0 5%;
-  border: 2px dotted magenta;
 }
 footer {
   text-align: center;

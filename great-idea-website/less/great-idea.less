@@ -1,6 +1,6 @@
 nav {
     border: 1px solid green;
-    width: 100%;
+    width: 93%;
     padding: 3%;
 
     a {
@@ -27,36 +27,43 @@ nav {
 .heading {
     .container();
     display: inline-block;
-    .borderCheck();
-    padding-bottom: 3%;
+    padding-bottom: 10%;
 
     .heading1 {
         margin-left: 2%;
         .blocky();
-        border: 1px solid goldenrod;
-        width: 45%;
+        text-align: center;
+
+        width: 48%;
         h1 {
             padding: 10% 15% 0;
-            .borderCheck();
             font-size: 500%;
+            text-align: center;
         }
         button {
-            .borderCheck();
-            padding: 2% 3%;
-            margin: 0 40%;
-            text-align: center;
+            width: 40%;
+            padding: 1.5% 3%;
+            border: 1px solid black;
+            border-radius: 4px;
+            background: white;
+            font-size: 1.2rem;
         }
     }
     .circle {
         .blocky();
-        border: 1px solid blue;
-        width: 45%;
+        .borderCheck();
+        width: 48%;
         text-align: center;
+        height: width;
+        img {
+            margin-top: 3%;
+            padding: 5%;
+        }
     }
 }
 .top-section {
     .container();
-    .borderCheck();
+    border-top: 2px solid black;
     .feats,
     .about {
         .blocky();
@@ -78,7 +85,7 @@ nav {
 }
 .triSection {
     .container();
-    .borderCheck();
+    border-bottom: 2px solid black;
     padding-bottom: 2%;
     .services,
     .product,
@@ -96,13 +103,11 @@ nav {
     }
     .vision {
         padding-left: 1%;
-        .borderCheck();
     }
 }
 .contact {
     padding: 1.5% 0%;
     .container();
-    .borderCheck();
 }
 footer {
     text-align: center;
