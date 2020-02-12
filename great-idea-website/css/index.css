@@ -321,6 +321,7 @@ nav .logo {
   margin: 0 5% 0 5%;
   display: inline-block;
   border: 2px dotted magenta;
+  padding-bottom: 3%;
 }
 .heading .heading1 {
   margin-left: 2%;
@@ -348,6 +349,7 @@ nav .logo {
 .top-section {
   width: 90%;
   margin: 0 5% 0 5%;
+  border: 2px dotted magenta;
 }
 .top-section .feats,
 .top-section .about {
@@ -365,6 +367,7 @@ nav .logo {
 .banner {
   width: 90%;
   margin: 0 5% 0 5%;
+  margin: 3% 5%;
 }
 .banner img {
   width: 100%;
@@ -373,24 +376,35 @@ nav .logo {
   width: 90%;
   margin: 0 5% 0 5%;
   border: 2px dotted magenta;
+  padding-bottom: 2%;
 }
 .triSection .services,
 .triSection .product,
 .triSection .vision {
   display: inline-block;
-  width: 31.5%;
+  width: 30%;
 }
 .triSection .services {
-  padding-right: 1%;
+  margin-right: 1%;
+  padding-right: 2%;
 }
 .triSection .product {
   padding: 0 1%;
+  margin-right: 2%;
 }
 .triSection .vision {
   padding-left: 1%;
   border: 2px dotted magenta;
 }
 .contact {
+  padding: 1.5% 0%;
   width: 90%;
   margin: 0 5% 0 5%;
+  border: 2px dotted magenta;
+}
+footer {
+  text-align: center;
+}
+footer h6 {
+  font-size: 1rem;
 }
