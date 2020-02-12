@@ -338,7 +338,7 @@ h3,
 h4,
 h5,
 h6,
-button {
+button p {
   font-family: "Bangers", cursive;
   letter-spacing: 0.15rem;
 }
@@ -371,16 +371,19 @@ a {
 }
 .heading .heading1 button {
   width: 40%;
-  padding: 1.5% 3%;
   border: 1px solid black;
   border-radius: 4px;
   background: white;
   font-size: 1.2rem;
 }
 .heading .heading1 button:hover {
-  color: white;
   background: black;
   cursor: pointer;
+  transform: scalex(1.1);
+}
+.heading .heading1 button:hover p {
+  transform: scaleX(0.95);
+  color: white;
 }
 .heading .circle {
   display: inline-block;
